@@ -3,10 +3,10 @@
     display: flex;
     flex-direction: column;
     flex:auto;
-    line-height:75px;
     text-align: center;
 
 }.flex-container>main{
+    background-color: aqua;
     display: flex;
      flex:auto;
      flex-direction:row;
@@ -18,6 +18,9 @@
     text-align: center;
 
 }.flex-container>article{
+    display: flex;
+    background-color: darkcyan;
+    overflow-y: auto;
     flex:2
     
     
