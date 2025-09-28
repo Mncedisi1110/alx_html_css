@@ -1,0 +1,90 @@
+body{
+    background-image: url("Object.png") ;
+    background-size: 0px 0px 250px;
+    background-position: top;
+    background-repeat: no-repeat;
+    
+}
+div.image1{
+    padding: 30px 25px 0px 70px;
+}
+nav{
+    display: inline;
+}
+ul{
+    list-style-type:none;
+}
+ ul li{
+
+float: right;
+}
+ul li a{
+    display: inline-block;
+    text-decoration-line: none;
+    padding: 0px 90px;
+    margin:0;
+    color: #ffffff;
+}
+div h1{
+    color: #ffffff;
+    text-align: center;
+    margin:0;
+    padding:144px 144px 13px;
+    font-size: 120px;
+    font-family: Source Sans Pro;
+
+}
+div span{
+    margin:auto;
+    padding: 0px 60px 0px 0px;
+    position: relative;
+    left: 40%;
+    top:50%;
+    transform: translate(-50%,-50%);
+    color: #ffffff;
+    
+    
+}
+   button{
+    background-color: rgb(160, 84, 231);
+    box-shadow: transparent;
+    padding: 9px;
+    border-radius: 10px;
+    font-size:11px;
+    color: #ffffff;
+    margin:25px;
+    position: relative;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    outline: none;
+   }
+   h2.learn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    word-spacing: 1px;
+    margin:0px 0px 0px 17px;
+    padding: 25px;
+    color:#ffffff;
+    font-family: sans-serif;
+    
+   }
+   div.smile{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-content: space-evenly;
+    padding: 70px;
+    margin: auto;
+    color: #ffffff;
+   }
+   div.au{
+    padding: 30px;
+    margin: 0px;
+   }
+   img.bruce{
+    clip-path: circle(50%);
+    shape-outside: circle(50%);
+   }
