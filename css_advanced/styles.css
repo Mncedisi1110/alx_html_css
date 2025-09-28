@@ -88,7 +88,7 @@ div span{
     clip-path: circle(50%);
     shape-outside: circle(50%);
    }
-   section.image2{
+  body section.image2{
     background-color:rgb(194,113,255);
     background-size:1440px;
     background-clip: fill;
@@ -134,4 +134,43 @@ div span{
     top: 90%;
     transform: translate(-50%,-50%);
     color: #ffffff;
+   }
+   section.video-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   }
+   h2.headi{
+    text-align: center;
+    font-family: sans-serif;
+    
+   }
+   div.video{
+    display: flex;
+    flex-direction: row;
+   }
+   div.vid{
+    padding: 0px 10px 10px 0px;
+   }p.pa{
+    color: rgb(194,113,255);
+    word-spacing: 2px;
+
+   }
+   .vid{
+    position: relative;
+   }
+   .img1{
+    position: absolute;
+    right:0px;
+    top: 0px;
+   }
+   .img2{
+    position: absolute;
+    left: -100px;
+
+   }
+   .png{
+    shape-outside: circle(100%);
+    clip-path: circle(50%);
    }
