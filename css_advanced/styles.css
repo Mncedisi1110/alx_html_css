@@ -46,7 +46,7 @@ div span{
     
 }
    button{
-    background-color: rgb(160, 84, 231);
+    background-color: rgb(194,113,255);
     box-shadow: transparent;
     padding: 9px;
     border-radius: 100px;
@@ -90,11 +90,7 @@ div span{
    }
   body section.image2{
     background-color:rgb(194,113,255);
-    background-size:1440px;
-    background-clip: fill;
-    height: 250px;
-    max-width: 100%;
-    padding: 0px 90px 90px;
+    width: 1440px;
    }
   
   .image2 img.photo5{
@@ -173,4 +169,78 @@ div span{
    .png{
     shape-outside: circle(100%);
     clip-path: circle(50%);
+   }
+   body section.fm{
+    background-color: rgb(7,22,41);
+    width: 1440px;
+   }
+   .free{
+    text-align: center;
+   }
+   .member{
+    display: flex;
+    flex-direction: row;
+    margin: 0px 0px 5px;
+    justify-content: center;
+    align-items: center;
+
+   }
+   .membership{
+    padding: 0px 30px 10px 0px;
+    color: #ffffff;
+   }
+
+   .faq{
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+   }
+   .fst{
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: center;
+    align-items: center;
+    column-gap: 30px;
+   }
+   .fst2{
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: center;
+    align-items: center;
+    column-gap: 30px;
+   }
+   
+   .snd{
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: center;
+    align-items: center;
+    column-gap: 30px;
+   }
+   .snd2{
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: center;
+    align-items: center;
+    column-gap: 30px;
+   }
+   .foot{
+    background-color: rgb(7,22,41);
+    max-width:1440;
+   }
+   .log{
+    padding: 30px;
+    margin-left: 120px;
+    margin-top: 100px;
+   }
+   .links{
+    float: right;
+    color: #ffffff;
+    margin-right: 100px;
+    margin-bottom: 200px;
+   }
+   .copyright{
+    display: flex;
+    justify-content: center;
+    color: #ffffff;
    }
