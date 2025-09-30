@@ -1,2 +1,1 @@
-CSS advanced project.
-Styling the html file with CSS.
+![alt text](<Screenshot 2025-09-30 184907.png>) ![alt text](<Screenshot 2025-09-30 184926.png>) ![alt text](<Screenshot 2025-09-30 184750.png>) ![alt text](<Screenshot 2025-09-30 184830.png>) ![alt text](<Screenshot 2025-09-30 184848.png>)
