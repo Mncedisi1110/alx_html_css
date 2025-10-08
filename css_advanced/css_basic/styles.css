@@ -1,0 +1,27 @@
+/* Flex container for index fille*/
+.flex-container>body{
+    display: flex;
+    flex-direction: column;
+    flex:auto;
+    text-align: center;
+
+}.flex-container>main{
+    background-color: aqua;
+    display: flex;
+     flex:auto;
+     flex-direction:row;
+    text-align: center;
+
+}.flex-container>ul{
+    flex:auto;
+    flex-direction:row;
+    text-align: center;
+
+}.flex-container>article{
+    display: flex;
+    background-color: darkcyan;
+    overflow-y: auto;
+    flex:2
+    
+    
+}
