@@ -68,4 +68,13 @@ body{
         font-family: Source-sans-pro;
         src: url(SourceSansPro-Regular);
     }
+    flex-wrap: wrap;
+}
+a:hover{
+    color: #ff6565;
+    opacity: 0.9;
+}
+a:active{
+    color: #ff6565;
+    opacity: 0.9;
 }
