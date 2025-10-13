@@ -105,7 +105,10 @@ a:hover{
   margin:50px 65px 10px 80px;
   color: #ff6565;
   font-size: 110px;
-   
+   animation-name: myAnimation;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  animation-delay: 1s;
 }
 #icon-ic_video{
     display: inline-block;
@@ -117,7 +120,10 @@ a:hover{
   margin:50px 65px  10px 80px;
   color: #ff6565;
   font-size: 110px;
-   
+   animation-name: myAnimation;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  animation-delay: 1s;
 }
 #icon-ic_music{
     display: inline-block;
@@ -129,7 +135,10 @@ a:hover{
   margin:50px 65px 10px 80px;
   color: #ff6565;
   font-size: 110px;
-   
+   animation-name: myAnimation;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  animation-delay: 1s;
 }
 #icon-ic_hearing{
     display: inline-block;
@@ -141,7 +150,10 @@ a:hover{
   margin:50px 65px 10px 80px;
   color: #ff6565;
   font-size: 110px;
- 
+  animation-name: myAnimation;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  animation-delay: 1s;
 }
 .pp5{
     display: flex;
@@ -351,7 +363,10 @@ input[type="text"] {
     border-style: solid;
     border-color: #ff6565 transparent;
     margin-left: 35px;
-    
+    animation-name: myAnimation;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  animation-delay: 1s;
 }
 #pentagon1::after, #pentagon2::after, #pentagon3::after, #pentagon4::after{
     content: "";
@@ -364,5 +379,25 @@ input[type="text"] {
     border-width: 0 90px  70px;
     border-color: transparent transparent #ff6565 ;
     margin-right: 35px;
-    
+    animation-name: animate;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  animation-delay: 1s;
+}
+@keyframes myAnimation{
+    0% {background-color: #ff6565;}
+    20% {background-color: #131a7c;}
+    40% {background-color: #0e6432;}
+    60%{background-color: #e20606;}
+    80%{background-color: #c208d3;}
+    100%{background-color: #e9d30a;}
+   
+}
+@keyframes animate {
+    0% {background-color: #ff6565;}
+    20% {background-color: #56f38b;}
+    40% {background-color: #e042a4;}
+    60%{background-color: #13cedb;}
+    80%{background-color: #fa790f;}
+    100%{background-color: #37f508;}
 }
